@@ -29,8 +29,7 @@ input:focus {
 
 .btn {
     color: white;
-    background-color: red;
-    font-family: "Arial";
+    background-color: darkblue;
     padding: 5px;
     border-radius: 12px;
     margin: auto;
