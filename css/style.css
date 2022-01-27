@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(94, 10, 10); 
+    font-size: 24px;
+}
+
+
+div h1 {
+    color: orange;
+    
+
+}
+
+input {
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 4px;
+    margin: 10px auto 10px auto;
+    display: block;
+    height: 30px;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.btn {
+    color: white;
+    background-color: darkblue;
+    padding: 5px;
+    border-radius: 12px;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1)
+}
+
+#container {
+    text-align: center;
+}
+
+.result {
+    color: aqua;
+}

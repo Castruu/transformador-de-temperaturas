@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformador de Temperatura</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="gray" id="container">
+        <h1>Transformador de Temperatura</h1>
+        <div class="converter">
+            Temperatura em Celsius:<br />
+            <input type="text" id="cDegrees">
+            <div id="cButton" class="btn"  onclick="celsiusToFahrenheit()">
+                <h4>Converter</h4>
+            </div>
+            <p>Sua temperatura em Fahrenheit é:</p>
+            <h3 id="cResult" class="result"></h3>
+        </div>
+        <hr>
+        <div class="converter">
+            Temperatura em Fahrenheit:<br>
+            <input type="text" id="fDegrees">
+            <div id="fButton" class="btn" onclick="fahrenheitToCelsius()">
+                <h4>Converter</h4>
+            </div>
+            <p>Sua temperatura em Celsius é:</p>
+            <h3 id="fResult" class="result"></h3>
+        </div>
+    </div>
+
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
